@@ -1,0 +1,61 @@
+body{
+}
+.header, .logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+  justify: space-between;
+}
+
+.header, nav ul li{
+  display: inline-block;
+  font-family: Verdana;
+  font-weight: 700;
+  padding-right: 40px;
+  margin-right: 40px;
+  color: black;
+}
+header, h3{
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+.header, nav ul li a{
+  color: black;
+}
+.header{
+display: flex;
+position: fixed;
+z-index: 1;
+width: 100%;
+height: 80px;
+border-bottom: 1px solid black;
+background-color: white;
+font family: Verdana;
+font-size: 14px;
+font-weight: bold;
+justify-content: space-between;
+}
+.content{
+  display: flex;
+}
+.content .column.large{
+  display: flex;
+  width: 630px;
+  border: 2px solid black;
+  color: black;
+}
+.content .column.medium{
+  display: flex;
+  width: 300px;
+  border: 1px black;
+  color: black;
+  border: 2px solid black;
+}
+.content .column.small{
+  display: flex;
+  width: 240px;
+  border: 1px black;
+  color: black;
+  border: 2px solid black;
+}
