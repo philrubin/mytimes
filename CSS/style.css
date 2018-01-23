@@ -38,11 +38,12 @@ justify-content: space-between;
 }
 .content{
   display: flex;
+  padding-top: 80px;
 }
 .content .column.large{
   display: flex;
   width: 630px;
-  border: 2px solid black;
+  border: 1px solid black;
   color: black;
 }
 .content .column.medium{
@@ -50,12 +51,12 @@ justify-content: space-between;
   width: 300px;
   border: 1px black;
   color: black;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 .content .column.small{
   display: flex;
   width: 240px;
   border: 1px black;
   color: black;
-  border: 2px solid black;
+  border: 1px solid black;
 }
