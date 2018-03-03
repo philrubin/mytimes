@@ -39,24 +39,52 @@ justify-content: space-between;
 .content{
   display: flex;
   padding-top: 80px;
-}
-.content .column.large{
-  display: flex;
-  width: 630px;
   border: 1px solid black;
-  color: black;
+  width: 1232px;
 }
+ .content .column.large{
+   dislplay: flex;
+   border: 1px solid black;
+   width: 630px;
+   height: 600px;
+ }
+.lead-story .img-content {
+  display: flex;
+background-image:  url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+
+  .lead-story .img-content span {
+    margin-left: 20px;
+    color: blue;
+}
+.img-content p{
+display: block;
+color: blue;
+}
+
+
 .content .column.medium{
   display: flex;
-  width: 300px;
-  border: 1px black;
-  color: black;
-  border: 1px solid black;
+width: 300px;
+border: 1px solid black;
+height: 600px;
+
+
+
 }
 .content .column.small{
   display: flex;
-  width: 240px;
-  border: 1px black;
-  color: black;
-  border: 1px solid black;
+width: 240px;
+height: 600px;
+border: 1px solid black;
+
+
+
 }
