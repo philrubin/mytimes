@@ -60,7 +60,7 @@ background-image:  url(https://s3.amazonaws.com/codecademy-content/courses/freel
   font-weight: bold;
   color: white;
 
-  .lead-story .img-content span {
+.lead-story .img-content span  {
     margin-left: 20px;
     color: blue;
 }
